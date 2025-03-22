@@ -7,7 +7,7 @@
 How to connect Charles automatically
 This document will help you create a script to automatically connect your stage DUT to charles proxy
 Team: [Internal Team Name]
-Author: Luis Bernache QA lead for T2)
+Author: Luis Bernache QA lead for DUT
 Go-Link: 
 Contributors: 
 Last Updated: 19/12/2022
