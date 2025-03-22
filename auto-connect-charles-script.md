@@ -4,10 +4,10 @@
 
 ---
 
-How to connect charles automatically
-This document will help you creating a script to connect automatically your stage Squid devices to charles proxy
+How to connect Charles automatically
+This document will help you create a script to automatically connect your stage DUT to charles proxy
 Team: [Internal Team Name]
-Author: ([Company] QA lead for T2)
+Author: Luis Bernache QA lead for T2)
 Go-Link: 
 Contributors: 
 Last Updated: 19/12/2022
@@ -50,7 +50,7 @@ adb shell iptables -P INPUT ACCEPT
 adb shell iptables -P OUTPUT ACCEPT
 echo "Success!!!"
 
-Note: Please be careful when copy/paste due spaces, etc, etc and replace your local ip (red ones)
+Note: Please be careful when copy/pasting due spaces, etc, etc and replace your local ip (red ones)
 Note: You can see your local ip open Charles Proxy click on Help 
 
 Go back to your file and should be like this:
@@ -77,6 +77,6 @@ Note: You will notice that the strings file name actually change its color, so n
 Once you re open the terminal just type use\_as\_example.sh and the script should be start running
  you can find a video of the expected behavior, 
 
-Note: For X2 user be sure to do adb connect  before to run the script
+Note: For DUTx user be sure to do adb connect  before to run the script
 
-Note 2: Please wait two or three seconds after plug in its device (T2) and connect adb ip for X2 before run your script
+Note 2: Please wait two or three seconds after plug in its device and connect adb ip for DUT before run your script
